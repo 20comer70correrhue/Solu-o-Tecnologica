@@ -23,13 +23,13 @@ body{
     display: flex;
     justify-content:space-around;
     align-items: center;
-    background-color: #4d5fa0;
+    background-color: #1588ca;
     padding: 10px 0;
     position: fixed;
     top: 0;
     width: 100%;
     z-index: 1000;
-   
+   border-radius: 8%
 };
 
 .menu li a{
@@ -40,15 +40,15 @@ body{
 }
 
 .menu li a:hover{
-    background-color: #4d5fa0;
-    color: #ffffff;
+    background-color: #1588ca;
+    color: #000000;
 }
 
 .menu li ul{
     position: absolute;
     top: 100%;
     left: 0;
-    background-color: #4d5fa0;
+    background-color: #ffd000;
     display: none;
     width: 150px;
 }
