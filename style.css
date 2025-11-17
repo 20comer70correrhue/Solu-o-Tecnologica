@@ -149,9 +149,35 @@ body{
  
   }
   
-  .card:hover {
+  #card1:hover {
     background-color: #357ab8;
     transform: scale(1.05);
   }
+ 
+  #card2:hover {
+    background-color: #357ab8;
+    transform: scale(1.05);
+  }
+ 
+  #card3:hover {
+    background-color: #357ab8;
+    transform: scale(1.05);
+  }
+ 
+  #card4:hover {
+    background-color: #357ab8;
+    transform: scale(1.05);
+  }
+ 
+  #card5:hover {
+    background-color: #357ab8;
+    transform: scale(1.05);
+  }
+ 
+  #card6:hover {
+    background-color: #357ab8;
+    transform: scale(1.05);
+  }
+
 
 
