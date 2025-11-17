@@ -6,6 +6,7 @@
 
 body{
     font-family: Arial, Helvetica, sans-serif;
+    background-color: #1276af;
 }
 
 .menu{
@@ -44,11 +45,113 @@ body{
     color: #000000;
 }
 
-.menu li ul{
-    position: absolute;
-    top: 100%;
-    left: 0;
-    background-color: #ffd000;
-    display: none;
-    width: 150px;
-}
+
+
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 20px;
+    max-width: 900px;
+    margin: 40px auto;
+  }
+  
+
+  #card1 {
+    background-color: #245791;
+    background-image: url('download.jpeg');
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 350px;
+    border-radius: 10px;
+    transition: 0.3s;
+    cursor: pointer;
+ 
+  }
+
+  #card2 {
+    background-color: #245791;
+    background-image: url('Untitled.jpeg');
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 350px;
+    border-radius: 10px;
+    transition: 0.3s;
+    cursor: pointer;
+ 
+  }
+  #card3 {
+    background-color: #245791;
+    background-image: url('images.jpeg');
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 350px;
+    border-radius: 10px;
+    transition: 0.3s;
+    cursor: pointer;
+ 
+  }
+  #card4 {
+    background-color: #245791;
+    background-image: url('bale-classico-cke.webp');
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 350px;
+    border-radius: 10px;
+    transition: 0.3s;
+    cursor: pointer;
+ 
+  }
+  #card5 {
+    background-color: #245791;
+    background-image: url('i');
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 350px;
+    border-radius: 10px;
+    transition: 0.3s;
+    cursor: pointer;
+ 
+  }
+  #card6 {
+    background-color: #245791;
+    background-image: url('Untitled.jpeg');
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 350px;
+    border-radius: 10px;
+    transition: 0.3s;
+    cursor: pointer;
+ 
+  }
+  
+  .card:hover {
+    background-color: #357ab8;
+    transform: scale(1.05);
+  }
+
+
