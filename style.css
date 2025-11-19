@@ -276,3 +276,13 @@ h2 {
   display: block;
   width: 325%;
 }
+
+.container{
+  
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); 
+  gap: 20px;
+  max-width: 900px;
+  margin: 40px auto;
+  
+}
