@@ -1,4 +1,4 @@
-*{
+{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -41,7 +41,7 @@ body{
 }
 
 .menu li a:hover{
-  background-color: #1588ca;
+  background-color: #0d86cc;
   color: #000000;
 }
 
@@ -108,16 +108,7 @@ body{
   transition: 0.3s;
   cursor: pointer;
   background-position: center; 
-  background-Você quer somente trocar a cor do calendário para a mesma cor usada no seu código, sem mudar estrutura, sem adicionar imagens, sem modificações extras.
-
-Mas... o código que você me mandou não contém nenhuma cor definida, porque nele não existe CSS mostrando qual é “a cor do seu código”.
-
-➡ Para eu colocar exatamente a mesma cor, preciso que você me envie o trecho do seu style.css onde está a cor do seu layout.
-
-✔ Me envie algo assim, por exemplo:
-css
-￼Copiar código
-size: cover;
+  background-size: cover;
   background-repeat: no-repeat;
 }
 #card4 {
@@ -232,15 +223,13 @@ h2 {
   margin-bottom: 20px;
 }
 
-/* Estilo para os nomes dos dias da semana e os números dos dias */
+*/
 .weekdays, .days {
   display: grid;
-  /* Divide o contêiner em 7 colunas de largura igual */
   grid-template-columns: repeat(7, 1fr); 
   gap: 5px;
 }
 
-/* Estilo para os nomes dos dias da semana */
 .weekdays div {
   font-weight: bold;
   color: #3a3a3a;
@@ -248,7 +237,6 @@ h2 {
   border-bottom: 2px solid #ddd;
 }
 
-/* Estilo para os números dos dias */
 .days div {
   padding: 15px 0;
   text-align: center;
@@ -258,20 +246,22 @@ h2 {
   transition: background-color 0.2s;
 }
 
-/* Estilo para um dia específico (exemplo: hoje) */
 .days div:nth-child(5) { /* Destaca o dia 4, por exemplo */
   background-color: #ffffff;
   color: rgb(63, 54, 54);
   font-weight: bold;
 }
 
-/* Estilo para os dias vazios (do mês anterior) */
 .days .empty {
   background-color: #f9f9f9;
 }
 
-/* Efeito de hover */
 .days div:not(.empty):hover {
   background-color: #e0e0e0;
   cursor: pointer;
+}
+
+*{
+  text-align: center;
+  height: ;
 }
