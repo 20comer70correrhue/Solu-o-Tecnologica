@@ -108,7 +108,16 @@ body{
   transition: 0.3s;
   cursor: pointer;
   background-position: center; 
-  background-size: cover;
+  background-Você quer somente trocar a cor do calendário para a mesma cor usada no seu código, sem mudar estrutura, sem adicionar imagens, sem modificações extras.
+
+Mas... o código que você me mandou não contém nenhuma cor definida, porque nele não existe CSS mostrando qual é “a cor do seu código”.
+
+➡ Para eu colocar exatamente a mesma cor, preciso que você me envie o trecho do seu style.css onde está a cor do seu layout.
+
+✔ Me envie algo assim, por exemplo:
+css
+￼Copiar código
+size: cover;
   background-repeat: no-repeat;
 }
 #card4 {
