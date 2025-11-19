@@ -265,3 +265,13 @@ h2 {
   text-align: center;
   height: ;
 }
+
+.container {
+  text-align: center;
+}
+
+.container img {
+  margin: 0 auto;
+  display: block;
+  width: 325%;
+}
